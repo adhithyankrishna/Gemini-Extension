@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Gemini",
+    "version": "1.0",
+    "description": "Demo for gemini chat api in chrome extension",
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "cookies",
+       "identity"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup/popup.html"
+    }
+    
+   
+    
+  }
+  
